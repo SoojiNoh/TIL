@@ -50,6 +50,7 @@
    * ctrl + b를 눌러 한번에 굵게
    * ex) **볼드체입니다**.
 3. 취소선(strike through) : ~~글자~~
+3. 형광펜(highlight) : ^^중요한부분^^
 
 
 
@@ -57,14 +58,19 @@
 
 # 코드 (블록 / 인라인)
 
-* \`() back tik)
+* **`**(back tik)
 
-1. 인라인 코드 : `git status`
-2. 블록 코드: 백틱 3번
+1. 인라인 코드 :  백틱 1번
+2. 블록 코드:  백틱 3번
 
 * 예시
-* for i in range(10):
-  * print(i)
+
+```python
+for i in range(10):
+	print(i)
+```
+
+
 
 # 링크
 
