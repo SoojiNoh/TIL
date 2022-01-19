@@ -149,10 +149,41 @@
    `git remote add <이름> <주소>` 형식으로 작성합니다.
 
    
+   
+   ```bash
+   $ git remote add origin 깃헙_저장소_주소
+   
+   [풀이]
+   git 명령어를 작성할건데, remote(원격 저장소)에 add(추가) 한다.
+   origin이라는 이름으로 나의 "깃헙_저장소_주소"라는 원격저장소를
+   ```
 
-![image-20220113150957491](Git 기초.assets/image-20220113150957491.png)
+2. 원격 저장소 조회
 
-![image-20220113151145402](Git 기초.assets/image-20220113151145402.png)
+   `git remote -v` 로 작성합니다.
+
+   ```
+   $ git remote -v
+   
+   origin https://github.com/내_깃헙_닉네임/TIL.git (fetch)
+   origin https://github.com/내_깃헙_닉네임/TIL.git (push)
+   
+   ```
+
+3. 원격 저장소 연결 삭제
+
+   ```
+   $ git remote rm origin
+   
+   [풀이]
+   git 명령어를 작성할 건데, remote(원격 저장소)와의 연결을 rm(삭제)한다.
+   ```
+
+   
+
+
+
+
 
 
 
